@@ -27,7 +27,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseTest implements IAutoConst{
+public abstract class BaseTest implements IAutoConst{
 	public static ExtentReports extent;
 	
 	public WebDriver driver;
