@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T07:57:56 IST" name="Default suite" finished-at="2022-12-20T07:58:01 IST" duration-ms="4981">
+  <suite started-at="2022-12-21T08:25:22 IST" name="Default suite" finished-at="2022-12-21T08:25:35 IST" duration-ms="12645">
     <groups>
     </groups>
-    <test started-at="2022-12-20T07:57:56 IST" name="Default test" finished-at="2022-12-20T07:58:01 IST" duration-ms="4981">
-      <class name="scripts.Script1">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:scripts.Script1@29526c05]" started-at="2022-12-20T07:57:56 IST" name="createReport" finished-at="2022-12-20T07:57:56 IST" duration-ms="142" status="PASS">
+    <test started-at="2022-12-21T08:25:22 IST" name="Default test" finished-at="2022-12-21T08:25:35 IST" duration-ms="12645">
+      <class name="scripts.ValidLogin">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:scripts.ValidLogin@7fb95505]" started-at="2022-12-21T08:25:22 IST" name="createReport" finished-at="2022-12-21T08:25:22 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:scripts.Script1@29526c05]" started-at="2022-12-20T07:57:56 IST" name="openApp" finished-at="2022-12-20T07:58:00 IST" duration-ms="3619" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:scripts.ValidLogin@7fb95505]" started-at="2022-12-21T08:25:23 IST" name="openApp" finished-at="2022-12-21T08:25:31 IST" duration-ms="8246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,33 +20,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void scripts.Script1.createCustomer()]]>
+                <![CDATA[public void scripts.ValidLogin.testValidLogin()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="createCustomer()[pri:1, instance:scripts.Script1@29526c05]" started-at="2022-12-20T07:58:00 IST" name="createCustomer" finished-at="2022-12-20T07:58:01 IST" duration-ms="978" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@7fb95505]" started-at="2022-12-21T08:25:31 IST" name="testValidLogin" finished-at="2022-12-21T08:25:35 IST" duration-ms="3972" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCustomer -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Script1@29526c05]" started-at="2022-12-20T07:58:01 IST" name="closeApp" finished-at="2022-12-20T07:58:01 IST" duration-ms="328" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.ValidLogin@7fb95505]" started-at="2022-12-21T08:25:35 IST" name="closeApp" finished-at="2022-12-21T08:25:35 IST" duration-ms="376" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createCustomer status=SUCCESS method=Script1.createCustomer()[pri:1, instance:scripts.Script1@29526c05] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:scripts.ValidLogin@7fb95505] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:scripts.Script1@29526c05]" started-at="2022-12-20T07:58:01 IST" name="publishReport" finished-at="2022-12-20T07:58:02 IST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:scripts.ValidLogin@7fb95505]" started-at="2022-12-21T08:25:35 IST" name="publishReport" finished-at="2022-12-21T08:25:35 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
-      </class> <!-- scripts.Script1 -->
+      </class> <!-- scripts.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
