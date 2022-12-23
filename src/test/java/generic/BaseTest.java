@@ -21,7 +21,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -36,8 +35,8 @@ public abstract class BaseTest implements IAutoConst{
 	
 	static
 	{
-		WebDriverManager.chromedriver().setup();
-		WebDriverManager.firefoxdriver().setup();
+//		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.firefoxdriver().setup();
 	}
 	
 	@BeforeSuite

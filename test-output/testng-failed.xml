@@ -5,8 +5,8 @@
     <classes>
       <class name="scripts.ValidLogin">
         <methods>
-          <include name="createReport"/>
           <include name="openApp"/>
+          <include name="createReport"/>
           <include name="closeApp"/>
           <include name="publishReport"/>
           <include name="testValidLogin"/>
